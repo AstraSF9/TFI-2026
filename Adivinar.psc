@@ -50,6 +50,6 @@ Algoritmo Adivinar
 		
     Hasta Que intento = secreto
 	
-    Escribir "=== FIN DEL JUEGO ==="
-
+    Escribir "=== FIN ==="
+	
 FinAlgoritmo
