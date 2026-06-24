@@ -16,7 +16,7 @@ Algoritmo Adivinar
         intentos <- intentos + 1
 		
         Si intento < 1 O intento > 25 Entonces
-            Escribir "? Ingrese un número válido entre 1 y 25."
+            Escribir "? Ingrese un numero valido entre 1 y 25."
 			
         SiNo
 			
@@ -28,19 +28,19 @@ Algoritmo Adivinar
                 diferencia <- abs(secreto - intento)
 				
                 Si diferencia <= 3 Entonces
-                    Escribir "?? ¡Muy cercano! Casi lo tenés."
+                    Escribir "?? Muy cerca! Ya casi."
                 SiNo
                     Si diferencia <= 8 Entonces
-                        Escribir "? Cercano, seguí intentando."
+                        Escribir "? Cerca, queda poco."
                     SiNo
-                        Escribir "? Muy alejado, intentá otro número."
+                        Escribir "? Muy lejos..."
                     FinSi
                 FinSi
 				
                 Si intento < secreto Entonces
-                    Escribir "^ Pista: el número es MAYOR."
+                    Escribir "^ Pista: el numero es MAYOR."
                 SiNo
-                    Escribir "? Pista: el número es MENOR."
+                    Escribir "? Pista: el numero es MENOR."
                 FinSi
 				
             FinSi
